@@ -1,4 +1,4 @@
-# RoutinePulse — Android Project Scaffold (Part 2 Starting Point)
+# RoutinePulse — Android Project  (Part 2 Starting Point)
 
 This is the initial MVVM project structure for **RoutinePulse**, built to match the
 architecture and screens specified in the Part 1 Research, Planning & Design document
