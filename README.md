@@ -3,7 +3,7 @@
 This is the initial MVVM project structure for **RoutinePulse**, built to match the
 architecture and screens specified in the Part 1 Research, Planning & Design document
 for OPSC6312. It is a **starting scaffold**, not a finished prototype — the goal is to
-give you a clean, correctly-wired foundation so you can spend your Part 2 time on
+show a clean, correctly-wired foundation so I can spend your Part 2 time on
 features and polish rather than project setup.
 
 ## What's implemented end-to-end
@@ -86,23 +86,10 @@ app/src/main/java/com/routinepulse/app/
 └── util/                       # Result wrapper, PasswordHasher
 ```
 
-## Getting started in Android Studio
+## Link To My Video
 
-1. Open this folder in Android Studio (Koala or newer recommended).
-2. Let Gradle sync — it will download the versions pinned in `app/build.gradle.kts`.
-3. Add your own `app/google-services.json` (see above) once you've created a Firebase
-   project — the build **will fail without it** because the `google-services` plugin
-   is applied. If you want to build without Firebase set up yet, temporarily comment
-   out the `id("com.google.gms.google-services")` line in `app/build.gradle.kts`.
-4. Update `BASE_URL` in `app/build.gradle.kts` once your REST API is hosted.
-5. Run on a device/emulator — you'll land on the Login screen. Registration/login will
-   fail until the API is live; that's expected at this stage.
 
-## Running tests locally
 
-```bash
-./gradlew test          # unit tests (PasswordHasherTest, etc.)
-./gradlew assembleDebug # builds the debug APK
-```
 
-Both also run automatically via `.github/workflows/android-ci.yml` on every push.
+
+
